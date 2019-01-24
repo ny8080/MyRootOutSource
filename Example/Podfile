@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'MyRootOutSource_Example' do
-  pod 'MyRootOutSource', :path => '../'
+  pod 'MyRootOutSource', :path => '../MyRootOutSource.podspec'
 
   target 'MyRootOutSource_Tests' do
     inherit! :search_paths

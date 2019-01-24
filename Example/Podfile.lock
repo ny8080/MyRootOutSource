@@ -8,16 +8,16 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - MyRootOutSource (from `../`)
+  - MyRootOutSource (from `../MyRootOutSource.podspec`)
 
 EXTERNAL SOURCES:
   MyRootOutSource:
-    :path: ../
+    :path: ../MyRootOutSource.podspec
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MyRootOutSource: 1df919dee4b8076c5790421638fde259e3ac8ede
 
-PODFILE CHECKSUM: 579f11cf450342dece22030a876f6d74c84c1000
+PODFILE CHECKSUM: f4357b5ce47bcb550c7b67b357d93d0023cb2039
 
 COCOAPODS: 1.3.1
