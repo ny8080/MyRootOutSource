@@ -1,0 +1,6 @@
+framework module MyRootOutSource {
+  umbrella header "MyRootOutSource-umbrella.h"
+
+  export *
+  module * { export * }
+}

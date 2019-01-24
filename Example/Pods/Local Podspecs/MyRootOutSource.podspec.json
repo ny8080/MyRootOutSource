@@ -1,0 +1,22 @@
+{
+  "name": "MyRootOutSource",
+  "version": "0.1.0",
+  "summary": "A short description of MyRootOutSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ny8080/MyRootOutSource",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ny8080": "hongsang@2dfire.com"
+  },
+  "source": {
+    "git": "https://github.com/ny8080/MyRootOutSource.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyRootOutSource/Classes/**/*"
+}

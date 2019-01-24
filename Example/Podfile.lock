@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MyRootOutSource (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MyRootOutSource (from `../`)
+
+EXTERNAL SOURCES:
+  MyRootOutSource:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MyRootOutSource: 3f1336dba364d455173fbb00cc661458197a3f39
+
+PODFILE CHECKSUM: 579f11cf450342dece22030a876f6d74c84c1000
+
+COCOAPODS: 1.3.1
