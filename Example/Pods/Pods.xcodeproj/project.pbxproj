@@ -13,8 +13,6 @@
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		1F5E2F82776F9CD51B634FC2A54382E1 /* Pods-MyRootOutSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A234A06B170F3BD3BC4536725BAE7C2 /* Pods-MyRootOutSource_Example-dummy.m */; };
-		2397552C21F9C78D004BBC67 /* HSTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2397552A21F9C78D004BBC67 /* HSTestView.h */; };
-		2397552D21F9C78D004BBC67 /* HSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2397552B21F9C78D004BBC67 /* HSTestView.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -57,8 +55,8 @@
 		180495F1DCF745E284BE0356033D1047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20213D356CFEB319EDF01B6EC7817E43 /* Pods-MyRootOutSource_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRootOutSource_Tests-resources.sh"; sourceTree = "<group>"; };
 		210EDFA4B9242DD5DFAA35BF0DABC773 /* Pods-MyRootOutSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRootOutSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2397552A21F9C78D004BBC67 /* HSTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSTestView.h; path = MyRootOutSource/Classes/HSTestView.h; sourceTree = "<group>"; };
-		2397552B21F9C78D004BBC67 /* HSTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSTestView.m; path = MyRootOutSource/Classes/HSTestView.m; sourceTree = "<group>"; };
+		2397552E21F9C926004BBC67 /* HSTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HSTestView.h; path = MyRootOutSource/Classes/HSTestView.h; sourceTree = "<group>"; };
+		2397552F21F9C926004BBC67 /* HSTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HSTestView.m; path = MyRootOutSource/Classes/HSTestView.m; sourceTree = "<group>"; };
 		2A9A7C9C652F728AA464D46022C99E92 /* Pods-MyRootOutSource_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRootOutSource_Example.modulemap"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -146,8 +144,8 @@
 		049428506A1BAE462931869B709284BA /* MyRootOutSource */ = {
 			isa = PBXGroup;
 			children = (
-				2397552A21F9C78D004BBC67 /* HSTestView.h */,
-				2397552B21F9C78D004BBC67 /* HSTestView.m */,
+				2397552E21F9C926004BBC67 /* HSTestView.h */,
+				2397552F21F9C926004BBC67 /* HSTestView.m */,
 			);
 			name = MyRootOutSource;
 			path = ../..;
@@ -313,7 +311,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2397552C21F9C78D004BBC67 /* HSTestView.h in Headers */,
 				DB238CE06096F108039A1A4E464A4D28 /* Pods-MyRootOutSource_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +419,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5E2F82776F9CD51B634FC2A54382E1 /* Pods-MyRootOutSource_Example-dummy.m in Sources */,
-				2397552D21F9C78D004BBC67 /* HSTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
