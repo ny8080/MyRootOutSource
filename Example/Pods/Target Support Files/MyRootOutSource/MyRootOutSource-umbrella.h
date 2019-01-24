@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HSTestView.h"
 
 FOUNDATION_EXPORT double MyRootOutSourceVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyRootOutSourceVersionString[];

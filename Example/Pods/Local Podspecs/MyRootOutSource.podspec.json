@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MyRootOutSource/Classes/**/{h,m}"
+  "source_files": "MyRootOutSource/Classes/**/*.{h,m}"
 }
