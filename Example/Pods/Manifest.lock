@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MyRootOutSource (0.1.0)
+  - MyRootOutSource (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MyRootOutSource: 3f1336dba364d455173fbb00cc661458197a3f39
+  MyRootOutSource: 1df919dee4b8076c5790421638fde259e3ac8ede
 
 PODFILE CHECKSUM: 579f11cf450342dece22030a876f6d74c84c1000
 
