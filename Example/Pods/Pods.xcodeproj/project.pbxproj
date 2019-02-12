@@ -15,8 +15,8 @@
 		11B6D742954CD96218798B0D893FE575 /* INameItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D0F5C0A73301A99D1CE178725CD789 /* INameItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1359C90B9181B6B8B2AEDD84F6A59EAF /* ItemBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 228D28590094DAC7AC270BA280E17875 /* ItemBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		195AA1620D4ADCA139998ABB8805E6C9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFA5661937A7EB36D2C2A08AF034F3D /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A51F34DFC65FE03119BC8CF0CB6F24B /* MyRootOutSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFE801AE47124FE4D777ABE1CCF09D /* MyRootOutSource-dummy.m */; };
 		1C7FA1ADAC11DB86BFDBFDC41AC4B56C /* TDFBaseInfoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0319449EA75679C0BA6B800184EC7159 /* TDFBaseInfoKit.framework */; };
+		1CD244E2648DCB75B613E3D83392934C /* HSTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E39F20794BDB6FAEFCBA32A7952983 /* HSTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4F6A9EF7DC4C1ECFB743BD9886C77C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CBA0DEE51E95D5594AE6CD4EA0FD67 /* MASLayoutConstraint.m */; };
 		1ECD17AC2EA9D678D7B7C15364EFEFBD /* TDFProjectNetworkingMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 404A5A4B2FF7DDEA36DDF6AF9E08F0F6 /* TDFProjectNetworkingMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F3DDBDBBDA9E1F93EB238216BA20378 /* DHTTableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AC834B7B8571433B9FD2C985FFAE8CC8 /* DHTTableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,13 +27,14 @@
 		29E25615473C73E2EFCF33F981F8C488 /* DHTTableViewSectionWithBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9F9DBD1693AC0245A0DD45666E2313 /* DHTTableViewSectionWithBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29ECAF11982176CC66690736518867C1 /* DHTTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA042E44D255A218987E25BEC181C258 /* DHTTableViewSection.m */; };
 		2D963D8697067D9D56CAA6523181E25E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 397C06C694D17CB64F77B0A014FE5348 /* Masonry-dummy.m */; };
+		2E05A86DB86E33A4ADED8A2427DB9CDE /* testx2.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC5BCED77E433E37C28A94B1ABCDA1 /* testx2.m */; };
 		2EACCD2F444EEECF6D6AAFF87BCB933E /* TDFEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F90F9C2F131E4459C0977685D80B375F /* TDFEventQueue.m */; };
 		32B3FED76DEB88C306EA001020F888DA /* DHTTableViewSectionWithDel.m in Sources */ = {isa = PBXBuildFile; fileRef = D978191C5F0917B290FC61C8AB28F146 /* DHTTableViewSectionWithDel.m */; };
 		32B90DC1FD062DDF4297D19C11297056 /* DHTTableViewSectionWithFold.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F5A879953ADC12F384F34030824221 /* DHTTableViewSectionWithFold.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32DFB677E34061FB7A721A5F5DFF6392 /* testx2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEF2220F709F62CABC114B82739FEC /* testx2.m */; };
 		35B5EBEFB2D12DAF18E084C08329A49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66255A979FA8035E91363E340F625136 /* Foundation.framework */; };
 		3785CD26AA90C7E251C2520BD1408F9D /* DHTTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9066E6C71AE86787FDD6D7E7DBC2B281 /* DHTTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3799F970ED36E477DB3130FCAB3A84DF /* DHTTableViewSectionWithDel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD83626F6ABEF1C29EB9942B2DD3A775 /* DHTTableViewSectionWithDel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39535D31BF47E8BE9A625AFDA7740E00 /* MyRootOutSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9280D2363B9B5F9F861D092C71BF7938 /* MyRootOutSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CC1135EF9DBCCA65588A2185310E5FF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE145C35EF820D1A87176DEB2B455605 /* View+MASAdditions.m */; };
 		3D1DA4628DCEF218F2CDD9991146A2B5 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8057B3008D43FB941044C8E3ED987B1B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E11E009840D39AD91400B671E58A9D9 /* TDFCoreProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676BE8861F924A780F71937B59FFC292 /* TDFCoreProtocol.framework */; };
@@ -51,20 +52,19 @@
 		52F717422A17CC85612E9E3CF1E6A494 /* TDFEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2684F6156F58D35B76D03CC2CEAE93E /* TDFEvent.m */; };
 		591F35EDAD353234110087026CFAAD8C /* IMenuDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DF87E657CD909C142088E134682540 /* IMenuDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5969D2155A3939EB8478B01BB01D5F6E /* TDFDataDrivenKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0933B1CF7E3DB22228E1F0E2C4149138 /* TDFDataDrivenKit-dummy.m */; };
-		5FC0749390870E21517396364BDD8248 /* HSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A574307F488449661194572D9400D0B7 /* HSTestView.m */; };
 		60768435C8B916B12C48A31EC09FFA88 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C359529D913CBC5A7FF7C21975F87A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		612D99299E960154D7372AB5013F57A9 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BD160AC43BC79C54C0381C77D42FB5A1 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B126067D8B16D9D9192479D2C33A34 /* HSTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 164BC4C768F5BFB003EF13C4730E6BEC /* HSTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6290C3374960A76C58E41B802A104DDC /* SortItemValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FA7F6852F14E173137D1F649F05025 /* SortItemValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BEDC3A1366786DFD8E02A207AE7BC4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A728537005C3B2C9F8F32835F23EA3F3 /* MASViewConstraint.m */; };
 		64CBED9C54828AE5C66D7CE6FA03AA78 /* MenuTimeModuleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F99D0A661700B9D3D4D78CDBCE41F6 /* MenuTimeModuleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64CE95DE38F1475EE004F3FDCAA52C6A /* SelectMenuClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA672AF8B31C0EFE6D8A66B6FADE4B5 /* SelectMenuClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664742EFE02C82E63C9A1DD0B9346815 /* HeadCheckHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C14DE4341FA8992D145E82D3F5B4B2 /* HeadCheckHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68DE758F462B0E837B9D1568065B0D6B /* IEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4128B5D5E01A8BE79AA9BE10F29393 /* IEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E9FE438F039794899F4C29147C3F953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66255A979FA8035E91363E340F625136 /* Foundation.framework */; };
 		6EDACF5CF4761E718B05D8F1C6A2EE01 /* TDFEventBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D1225885718AC2CB6E1D35C5A4030 /* TDFEventBus.m */; };
 		6EED186A9F5831C9BE0750F07B184C5B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D01CB1087B10F3871254DB25D0E2AD1 /* ReplaceMe.m */; };
+		7165676D66A14C15B74900799B830E4D /* MyRootOutSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE4EE156309DC69AC65C2D341B9C032 /* MyRootOutSource-dummy.m */; };
 		72BB05EEFE45E0781418F5BDA44AD6E2 /* TDFBaseInfoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEFF58FF22C0245428A5382BAEE0527 /* TDFBaseInfoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7595B7FE2F77F17D7DFB858AF05A3A36 /* testx2.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9D344C3DAB639AAB18BACDA83C0DBE /* testx2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75F80753234282E733C6F84776A61CA1 /* Pods-MyRootOutSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5B02D1DDADBBA92089A56FD4DD478 /* Pods-MyRootOutSource_Example-dummy.m */; };
 		76C5B2A7993CAA295ADA73B5D4278849 /* DHTTableViewSectionWithFold.m in Sources */ = {isa = PBXBuildFile; fileRef = A0970F2EEF809BC6BCADC86B6A6D3C44 /* DHTTableViewSectionWithFold.m */; };
 		7B64DADEB40879E972A2F14B622DCB40 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C65A5B38C985E5C11B8916F20ECF91F6 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,6 +72,7 @@
 		81BFCA04269A6CA743474CBC24D5C228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66255A979FA8035E91363E340F625136 /* Foundation.framework */; };
 		82E3B11B9E28E8A45F3340531F98080F /* MultiCheckHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 929BC604DCB21900B9D2E3D3088D7060 /* MultiCheckHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84787BBC3364D2C82F8BA2B52141B7BE /* IImageDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C966CA1EDEC31F59E9D87D2793EA1F50 /* IImageDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85693D59C600F3C4882BD953047BD6E5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7EA25DE4CC0C5C68A23101E139B61 /* ReplaceMe.m */; };
 		8578B4E7B303FB685F5001ABBF6BD9E4 /* SettingModuleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 046AF9F03DFA171E1A1238E32D1A06A6 /* SettingModuleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85B1D8103A398F4967AC3981D6F41236 /* TDFCoreProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678FC8CBEDF4FE143467C2C0B9E253CD /* TDFCoreProtocol-dummy.m */; };
 		88914C12C9BAA362EB22569FDD65248F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BC8C332A692ED0E4F8714BF2E9A417 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,6 +97,7 @@
 		AD09AA08149656C9105B05210E9B11E3 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD35F0E49B2604836FB23D95D99471 /* MASConstraintMaker.m */; };
 		AE68D9B2505468A0C63080B6C9CA8B80 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A2FDA5C581D1243E4DA6FCA3C948C5 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1ECE4B490CAC4C5CE221918CA664CD9 /* MemoInputClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 266D0FFD87C456A93D982A420A806261 /* MemoInputClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50B24513DFCFCAA9F053A93F4907616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66255A979FA8035E91363E340F625136 /* Foundation.framework */; };
 		B6C653E1FD904D4F01059FE4709E6A89 /* ADBaseUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B38271C737822542B77C427470E164 /* ADBaseUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DFD85564D1F8EFB2F074CD7E8E26D6 /* SingleCheckHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C21AB242653F2B41104615142A9732 /* SingleCheckHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC2B551D4BA5E9C311CB84C2EE1FE8F4 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8C1BB15440D73044FC78915C18058C /* Masonry.framework */; };
@@ -106,12 +108,11 @@
 		C2AE94477A20E30EC4AAA56806E77889 /* TDFBaseInfoDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFE4DCA9898867E5D9FC9C260CB29 /* TDFBaseInfoDefaults.m */; };
 		C443B0C8580435A2DEF05793E4D07C20 /* TDFBaseInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B754C42A970D1972D0982F0A66E0A3FA /* TDFBaseInfoKit-dummy.m */; };
 		C599B6B6B765E1BB8AB1F0DABF1E40F9 /* TimePickerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2F1A85331ACD579607FC3D37222B20 /* TimePickerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C799CCF1F3391AE5FEDADCBC1BFCBA71 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D20D3E536C55A92DEF083CB5265043 /* ReplaceMe.m */; };
 		CE28D5A1B9090F427256683084EAE20E /* ADHostTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F489408C6B1B2AD93B4CF51791F8DE /* ADHostTest.m */; };
 		CECB4D8B7C7305B94250E797F1ADAB26 /* TDFAppConfigurationMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9F26C1ECD4689D87DE7FAA399DC8FE /* TDFAppConfigurationMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0F3DB6CB425646B26DAB7F41ED71299 /* MyRootOutSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4528816B7E0CE9B484CBBA67BF62C98 /* MyRootOutSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D170490E061B458FB9A190041FD9DF43 /* NavigationToJump.h in Headers */ = {isa = PBXBuildFile; fileRef = 8844530D1EE469880A57DAE6E8EA3239 /* NavigationToJump.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D187B52A1D6A69DBF040EAAC855CFF7F /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8C1BB15440D73044FC78915C18058C /* Masonry.framework */; };
+		D456DDA22F6EF8DF4340175D6DF86D9D /* HSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A7FAD3BF9D4100E2C910C3F6011DC9 /* HSTestView.m */; };
 		D507139A9923E85122979E2ED8547116 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A4F22D440B10D227937C712591594 /* NSArray+MASAdditions.m */; };
 		D5276416190C21CE363C9F841DCD3046 /* KabawModuleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A20DC3D6F15F2EB99CDD16F9548832 /* KabawModuleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D59811D3D829019F1B824CACB7D123DC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7CBAD3839417D3AF9BDBA825F53FB2 /* MASViewAttribute.m */; };
@@ -119,7 +120,6 @@
 		D63F8486C79B5DD5703BB816DFAC200F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E67045E2AC7DA293D188169BE85B2083 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6CD3B57E0CA4339ECEEED6ED97EA810 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AAED37F1B5E8456A4232D094E69721CB /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DE6890D59FD523B3B0D50DEB113DAE /* TDFItemValueInterfaceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CE64C935EFD230D0849492AA4FF14DBB /* TDFItemValueInterfaceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB8E0C66D720ADAABFD68871EB9CB8BA /* testx2.h in Headers */ = {isa = PBXBuildFile; fileRef = D751C0A2E6679CDB1A9E0D4B70FE3F2D /* testx2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD405A051D7736731CE3D4E7ACAAC44 /* EditItemChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 9967C76489AD4EECA5C4C0CACC4F8447 /* EditItemChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC4D7C27860A1FCAF3FD31F78E0985BA /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD7E6969EDD8775837192EA92F32004 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E30DCC2788A2AE09D8916F2DEB148EEC /* DHListSelectHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D55E8673BBA1EBCEF9EBC3766E69EE /* DHListSelectHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -146,7 +146,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9CEA93C826416F9581B8BA09F5A33AA;
+			remoteGlobalIDString = 42CB5CE314B7AB474A0123AADB1764BB;
 			remoteInfo = MyRootOutSource;
 		};
 		271AE3BFE0348278FC1615FEF344E6EE /* PBXContainerItemProxy */ = {
@@ -216,18 +216,17 @@
 		081BE7FF56A6F1933604D46BF889B74C /* TDFDataDrivenKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDFDataDrivenKit.xcconfig; sourceTree = "<group>"; };
 		08FD35F0E49B2604836FB23D95D99471 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		0933B1CF7E3DB22228E1F0E2C4149138 /* TDFDataDrivenKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDFDataDrivenKit-dummy.m"; sourceTree = "<group>"; };
-		09C25426523B8EC079436CA0EB283C25 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C25426523B8EC079436CA0EB283C25 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E46A56DD15667AF1D0F38F7B9A0C5FA /* TDFSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFSubscription.m; path = TDFDataDrivenKit/Classes/eventBus/TDFSubscription.m; sourceTree = "<group>"; };
 		0E6FE9F0F32657EB93B4DB0352D6C005 /* TDFCoreProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDFCoreProtocol.xcconfig; sourceTree = "<group>"; };
-		1219CF2024CC0B13D0D01D159BE6B349 /* MyRootOutSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRootOutSource-prefix.pch"; sourceTree = "<group>"; };
 		12E14B5E8FC06A64ABAD6B2FCFA76759 /* DHTTableViewEditSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewEditSection.m; path = TDFDataDrivenKit/Classes/DHTTableViewEditSection.m; sourceTree = "<group>"; };
 		144ADDDF4E8DBE95D82A12922DF6D3CB /* TDFDataDrivenKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDFDataDrivenKit-prefix.pch"; sourceTree = "<group>"; };
-		164BC4C768F5BFB003EF13C4730E6BEC /* HSTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSTestView.h; path = MyRootOutSource/Classes/HSTestView.h; sourceTree = "<group>"; };
 		17D38DECC3864F9AE1908534434C2517 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		19B38271C737822542B77C427470E164 /* ADBaseUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADBaseUIKit-umbrella.h"; sourceTree = "<group>"; };
 		1CC240DFF35168C2FBD33BD0B17AB074 /* TDFEditColorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFEditColorHelper.m; path = TDFDataDrivenKit/Classes/TDFEditColorHelper.m; sourceTree = "<group>"; };
 		228D28590094DAC7AC270BA280E17875 /* ItemBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ItemBase.h; path = Classes/ItemBase.h; sourceTree = "<group>"; };
 		23A583AB5E5F5E1FF9D1EE00E088BE47 /* IMultiNameValueItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMultiNameValueItem.h; path = Classes/IMultiNameValueItem.h; sourceTree = "<group>"; };
+		23E39F20794BDB6FAEFCBA32A7952983 /* HSTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSTestView.h; path = MyRootOutSource/Classes/HSTestView.h; sourceTree = "<group>"; };
 		23F489408C6B1B2AD93B4CF51791F8DE /* ADHostTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADHostTest.m; path = ADBaseUIKit/Classes/ADHostTest.m; sourceTree = "<group>"; };
 		25BC8C332A692ED0E4F8714BF2E9A417 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		266D0FFD87C456A93D982A420A806261 /* MemoInputClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoInputClient.h; path = Classes/MemoInputClient.h; sourceTree = "<group>"; };
@@ -242,6 +241,7 @@
 		39F483FEC7690D71EEBE18B94D772686 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		3A7D1225885718AC2CB6E1D35C5A4030 /* TDFEventBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFEventBus.m; path = TDFDataDrivenKit/Classes/eventBus/TDFEventBus.m; sourceTree = "<group>"; };
 		3F4128B5D5E01A8BE79AA9BE10F29393 /* IEventListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEventListener.h; path = Classes/IEventListener.h; sourceTree = "<group>"; };
+		3FE7EA25DE4CC0C5C68A23101E139B61 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyRootOutSource/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		404A5A4B2FF7DDEA36DDF6AF9E08F0F6 /* TDFProjectNetworkingMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFProjectNetworkingMacro.h; path = Class/TDFProjectNetworkingMacro.h; sourceTree = "<group>"; };
 		40A64D93D518543462DF54575A4E4295 /* ADHostTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADHostTest.h; path = ADBaseUIKit/Classes/ADHostTest.h; sourceTree = "<group>"; };
 		4470658E2AEFC92C9A38DEC03EFBBAC1 /* TDFEventBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFEventBus.h; path = TDFDataDrivenKit/Classes/eventBus/TDFEventBus.h; sourceTree = "<group>"; };
@@ -250,16 +250,14 @@
 		4D01CB1087B10F3871254DB25D0E2AD1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ADBaseUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4FD7E6969EDD8775837192EA92F32004 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		528E8B6C41111500BC59B946D901E571 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		56CFE801AE47124FE4D777ABE1CCF09D /* MyRootOutSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyRootOutSource-dummy.m"; sourceTree = "<group>"; };
+		5479F64B43004E2C78ED095E01AEFBA2 /* MyRootOutSource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyRootOutSource.xcconfig; sourceTree = "<group>"; };
 		582AF37A0A1CDC190567F3836444A88D /* DHTTableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewItem.m; path = TDFDataDrivenKit/Classes/DHTTableViewItem.m; sourceTree = "<group>"; };
 		5A3C6857CE788CC16A2B5F4B527FE71F /* Pods-MyRootOutSource_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRootOutSource_Example-resources.sh"; sourceTree = "<group>"; };
 		5A8C1BB15440D73044FC78915C18058C /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BE107726F1A83152AA05181F5AC0415 /* Pods_MyRootOutSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRootOutSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE107726F1A83152AA05181F5AC0415 /* Pods_MyRootOutSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRootOutSource_Example.framework; path = "Pods-MyRootOutSource_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E651BD85C8909587C585656E2D844C /* ADBaseUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADBaseUIKit-dummy.m"; sourceTree = "<group>"; };
-		610A0C6EFA7A95DCAA4B4C56479EEC9F /* MyRootOutSource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyRootOutSource.xcconfig; sourceTree = "<group>"; };
 		617C173801FFC0FE1E3A07E7A004D59B /* TDFDataDrivenKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFDataDrivenKit.h; path = TDFDataDrivenKit/Classes/TDFDataDrivenKit.h; sourceTree = "<group>"; };
-		61EC35DDD753F5B9ACCBB97CDF743E3F /* TDFCoreProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDFCoreProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62E552A1733381DD2045CE8132E766FB /* MyRootOutSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyRootOutSource.modulemap; sourceTree = "<group>"; };
+		61EC35DDD753F5B9ACCBB97CDF743E3F /* TDFCoreProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDFCoreProtocol.framework; path = TDFCoreProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633C8405E7543A8F134DF6C47221882E /* TDFCoreProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDFCoreProtocol-prefix.pch"; sourceTree = "<group>"; };
 		66255A979FA8035E91363E340F625136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		676BE8861F924A780F71937B59FFC292 /* TDFCoreProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDFCoreProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,7 +275,6 @@
 		789651FD9B8CC2CEEE62DA580314FC3C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		7AF26ECCB1E442FF8DFD9B2CDE9D5777 /* TDFComponentsAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFComponentsAdapter.h; path = TDFDataDrivenKit/Classes/TDFComponentsAdapter.h; sourceTree = "<group>"; };
 		7B375B7B286E10E8ABB58A0103D0BF31 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		7CFEF2220F709F62CABC114B82739FEC /* testx2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = testx2.m; path = MyRootOutSource/Classes/testx2.m; sourceTree = "<group>"; };
 		8057B3008D43FB941044C8E3ED987B1B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		823ECF73509A8E59AE214465CC6885D5 /* DHTTableViewCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewCellProtocol.h; path = TDFDataDrivenKit/Classes/DHTTableViewCellProtocol.h; sourceTree = "<group>"; };
 		82F5A879953ADC12F384F34030824221 /* DHTTableViewSectionWithFold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewSectionWithFold.h; path = TDFDataDrivenKit/Classes/DHTTableViewSectionWithFold.h; sourceTree = "<group>"; };
@@ -294,22 +291,23 @@
 		8E7A4F22D440B10D227937C712591594 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8F8C1DD8D1C89AB1E0728220EA2758B0 /* DHTTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewManager.m; path = TDFDataDrivenKit/Classes/DHTTableViewManager.m; sourceTree = "<group>"; };
 		9066E6C71AE86787FDD6D7E7DBC2B281 /* DHTTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewManager.h; path = TDFDataDrivenKit/Classes/DHTTableViewManager.h; sourceTree = "<group>"; };
-		90DDDD2CF67D76FAC42578639EF061E8 /* TDFDataDrivenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDFDataDrivenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DDDD2CF67D76FAC42578639EF061E8 /* TDFDataDrivenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDFDataDrivenKit.framework; path = TDFDataDrivenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9280D2363B9B5F9F861D092C71BF7938 /* MyRootOutSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRootOutSource-umbrella.h"; sourceTree = "<group>"; };
 		929BC604DCB21900B9D2E3D3088D7060 /* MultiCheckHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiCheckHandle.h; path = Classes/MultiCheckHandle.h; sourceTree = "<group>"; };
 		92AF6C0CBACB950925BB503C36CCD31C /* TDFCoreProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFCoreProtocol.h; path = Classes/TDFCoreProtocol.h; sourceTree = "<group>"; };
 		92C359529D913CBC5A7FF7C21975F87A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C14DE4341FA8992D145E82D3F5B4B2 /* HeadCheckHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeadCheckHandle.h; path = Classes/HeadCheckHandle.h; sourceTree = "<group>"; };
 		973DF7D3FC12801FDE929CC704C309AA /* INameValueItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INameValueItem.h; path = Classes/INameValueItem.h; sourceTree = "<group>"; };
-		97B6DC308B21FED934EEC29AF1F89EC0 /* TDFBaseInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDFBaseInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B6DC308B21FED934EEC29AF1F89EC0 /* TDFBaseInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDFBaseInfoKit.framework; path = TDFBaseInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9967C76489AD4EECA5C4C0CACC4F8447 /* EditItemChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EditItemChange.h; path = Classes/EditItemChange.h; sourceTree = "<group>"; };
 		9B9F26C1ECD4689D87DE7FAA399DC8FE /* TDFAppConfigurationMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFAppConfigurationMacro.h; path = Class/TDFAppConfigurationMacro.h; sourceTree = "<group>"; };
 		9D3880C2BD1C90AA3C8070A801855B10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFA5661937A7EB36D2C2A08AF034F3D /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		A0970F2EEF809BC6BCADC86B6A6D3C44 /* DHTTableViewSectionWithFold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewSectionWithFold.m; path = TDFDataDrivenKit/Classes/DHTTableViewSectionWithFold.m; sourceTree = "<group>"; };
 		A48067DC399C5EC35C8A51FB8FDBBB00 /* ITreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ITreeNode.h; path = Classes/ITreeNode.h; sourceTree = "<group>"; };
-		A574307F488449661194572D9400D0B7 /* HSTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSTestView.m; path = MyRootOutSource/Classes/HSTestView.m; sourceTree = "<group>"; };
 		A728537005C3B2C9F8F32835F23EA3F3 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		AA9D344C3DAB639AAB18BACDA83C0DBE /* testx2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = testx2.h; path = MyRootOutSource/Classes/testx2.h; sourceTree = "<group>"; };
 		AAED37F1B5E8456A4232D094E69721CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		AC2DF0B2C28F6F50790845CB7E2F788C /* ADBaseUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADBaseUIKit.xcconfig; sourceTree = "<group>"; };
 		AC6B908F1DD7621A42D88521AA812D97 /* TDFEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFEvent.h; path = TDFDataDrivenKit/Classes/eventBus/TDFEvent.h; sourceTree = "<group>"; };
@@ -317,7 +315,6 @@
 		AD83626F6ABEF1C29EB9942B2DD3A775 /* DHTTableViewSectionWithDel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewSectionWithDel.h; path = TDFDataDrivenKit/Classes/DHTTableViewSectionWithDel.h; sourceTree = "<group>"; };
 		AE0ACCABDCF9B56B253B677BEC896532 /* TDFBaseInfoDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFBaseInfoDefaults.h; path = Class/TDFBaseInfoDefaults.h; sourceTree = "<group>"; };
 		AE145C35EF820D1A87176DEB2B455605 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		B1E418D88EBF8DFCA0A56833593235A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D5B02D1DDADBBA92089A56FD4DD478 /* Pods-MyRootOutSource_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRootOutSource_Example-dummy.m"; sourceTree = "<group>"; };
 		B3D6BFF88041E6FACB679CDE668DCAD3 /* TDFCoreProtocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDFCoreProtocol.modulemap; sourceTree = "<group>"; };
 		B67BFE4DCA9898867E5D9FC9C260CB29 /* TDFBaseInfoDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFBaseInfoDefaults.m; path = Class/TDFBaseInfoDefaults.m; sourceTree = "<group>"; };
@@ -329,30 +326,32 @@
 		BDBCF76E2023020EE4D90B87D529ACE4 /* TDFEventBusProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFEventBusProtocol.h; path = TDFDataDrivenKit/Classes/eventBus/TDFEventBusProtocol.h; sourceTree = "<group>"; };
 		BEEC4FD8BCFA828DE43629600080F255 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C12B2310DEA35C3F138E4FD0B51E8A77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C3C999A1CECAF30FDFBB082000B6EE18 /* ADBaseUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADBaseUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C999A1CECAF30FDFBB082000B6EE18 /* ADBaseUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADBaseUIKit.framework; path = ADBaseUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51253EB4C51572F24D97DE5E52C05E0 /* TDFTableViewViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFTableViewViewProtocol.h; path = TDFDataDrivenKit/Classes/TDFTableViewViewProtocol.h; sourceTree = "<group>"; };
 		C65A5B38C985E5C11B8916F20ECF91F6 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		C966CA1EDEC31F59E9D87D2793EA1F50 /* IImageDataItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IImageDataItem.h; path = Classes/IImageDataItem.h; sourceTree = "<group>"; };
-		C9C24292BFE329BE4A6B0E7553748764 /* MyRootOutSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyRootOutSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96EA5CAC99EEB18A8D6A1B44200CB4A /* MyRootOutSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyRootOutSource.modulemap; sourceTree = "<group>"; };
+		C9A7FAD3BF9D4100E2C910C3F6011DC9 /* HSTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSTestView.m; path = MyRootOutSource/Classes/HSTestView.m; sourceTree = "<group>"; };
+		C9C24292BFE329BE4A6B0E7553748764 /* MyRootOutSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyRootOutSource.framework; path = MyRootOutSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFB2DFDC5477DF832AA365A43037244 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		CE64C935EFD230D0849492AA4FF14DBB /* TDFItemValueInterfaceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFItemValueInterfaceProtocol.h; path = Classes/TDFItemValueInterfaceProtocol.h; sourceTree = "<group>"; };
 		D15053ED1BDB6E697850C672B63C2CF0 /* Pods-MyRootOutSource_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRootOutSource_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5C21AB242653F2B41104615142A9732 /* SingleCheckHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SingleCheckHandle.h; path = Classes/SingleCheckHandle.h; sourceTree = "<group>"; };
 		D6D55E8673BBA1EBCEF9EBC3766E69EE /* DHListSelectHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHListSelectHandle.h; path = Classes/DHListSelectHandle.h; sourceTree = "<group>"; };
 		D7443C4348B4C124DDADE429F3C1A80E /* TDFCoreProtocolImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFCoreProtocolImplementation.m; path = Classes/TDFCoreProtocolImplementation.m; sourceTree = "<group>"; };
-		D751C0A2E6679CDB1A9E0D4B70FE3F2D /* testx2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = testx2.h; path = MyRootOutSource/Classes/testx2.h; sourceTree = "<group>"; };
 		D978191C5F0917B290FC61C8AB28F146 /* DHTTableViewSectionWithDel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewSectionWithDel.m; path = TDFDataDrivenKit/Classes/DHTTableViewSectionWithDel.m; sourceTree = "<group>"; };
 		DA042E44D255A218987E25BEC181C258 /* DHTTableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DHTTableViewSection.m; path = TDFDataDrivenKit/Classes/DHTTableViewSection.m; sourceTree = "<group>"; };
+		DBFD8B301B88D2F4E06F0080AC063A12 /* MyRootOutSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRootOutSource-prefix.pch"; sourceTree = "<group>"; };
 		DE01095BC01B8D45F9171E99C4EB1DE7 /* TDFCoreProtocolImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFCoreProtocolImplementation.h; path = Classes/TDFCoreProtocolImplementation.h; sourceTree = "<group>"; };
 		E00914B8CECB792B4AC3A97CB4D72177 /* TDFBaseInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDFBaseInfoKit.modulemap; sourceTree = "<group>"; };
 		E1CFEB2DCF36A5EF9E311EA169848C62 /* TDFBaseInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDFBaseInfoKit-prefix.pch"; sourceTree = "<group>"; };
 		E2684F6156F58D35B76D03CC2CEAE93E /* TDFEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFEvent.m; path = TDFDataDrivenKit/Classes/eventBus/TDFEvent.m; sourceTree = "<group>"; };
-		E4528816B7E0CE9B484CBBA67BF62C98 /* MyRootOutSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRootOutSource-umbrella.h"; sourceTree = "<group>"; };
+		E3E12F4F3A173B464D86DC22BB14FFF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67045E2AC7DA293D188169BE85B2083 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		E7D0F5C0A73301A99D1CE178725CD789 /* INameItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INameItem.h; path = Classes/INameItem.h; sourceTree = "<group>"; };
-		E7D20D3E536C55A92DEF083CB5265043 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyRootOutSource/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E868E8ECF130ED0ECC58D09453811941 /* Pods-MyRootOutSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRootOutSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC0DC9055B8C2E24DECCBF3C11F45E69 /* Pods-MyRootOutSource_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRootOutSource_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECEC5BCED77E433E37C28A94B1ABCDA1 /* testx2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = testx2.m; path = MyRootOutSource/Classes/testx2.m; sourceTree = "<group>"; };
 		EDEFF58FF22C0245428A5382BAEE0527 /* TDFBaseInfoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDFBaseInfoKit.h; path = Class/TDFBaseInfoKit.h; sourceTree = "<group>"; };
 		EEB1518F06206668B115DFFAF0AC2914 /* TDFComponentsAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDFComponentsAdapter.m; path = TDFDataDrivenKit/Classes/TDFComponentsAdapter.m; sourceTree = "<group>"; };
 		F28853D7DBBA67BAA380396F3EF907B7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -365,6 +364,7 @@
 		F928CDC329A04A7930295D9D193EA77E /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		FB41BCCF7843F023D786D154EDC6A9A9 /* DHTTableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewSection.h; path = TDFDataDrivenKit/Classes/DHTTableViewSection.h; sourceTree = "<group>"; };
 		FB9F9DBD1693AC0245A0DD45666E2313 /* DHTTableViewSectionWithBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DHTTableViewSectionWithBtn.h; path = TDFDataDrivenKit/Classes/DHTTableViewSectionWithBtn.h; sourceTree = "<group>"; };
+		FBE4EE156309DC69AC65C2D341B9C032 /* MyRootOutSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyRootOutSource-dummy.m"; sourceTree = "<group>"; };
 		FD742929EEE61A9B72E7F9E152789267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -422,25 +422,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D68963BA3CA3BBCCC897BD96DD1F0394 /* Frameworks */ = {
+		CBAD551CC70D19534D0508EB27EF7F9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9FE438F039794899F4C29147C3F953 /* Foundation.framework in Frameworks */,
+				B50B24513DFCFCAA9F053A93F4907616 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AE7E2FF94ADD3C13846A865B3E96D39 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B20627EEC6D70B25C13574481DD11B3A /* MyRootOutSource */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		0F3AD4E30DCCC7FC991F0B8D2EB4A232 /* ADBaseUIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +441,7 @@
 				4D01CB1087B10F3871254DB25D0E2AD1 /* ReplaceMe.m */,
 				B1BF7520D678C9FFD4ED9329E95AD8CC /* Support Files */,
 			);
+			name = ADBaseUIKit;
 			path = ADBaseUIKit;
 			sourceTree = "<group>";
 		};
@@ -504,6 +497,7 @@
 				789651FD9B8CC2CEEE62DA580314FC3C /* ViewController+MASAdditions.m */,
 				AD6B3A56E796FADE20A8C7E914DBF7F5 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -523,20 +517,6 @@
 			);
 			name = "Pods-MyRootOutSource_Example";
 			path = "Target Support Files/Pods-MyRootOutSource_Example";
-			sourceTree = "<group>";
-		};
-		41AB4C7D7592F8AF5885BBF173CF4478 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B1E418D88EBF8DFCA0A56833593235A6 /* Info.plist */,
-				62E552A1733381DD2045CE8132E766FB /* MyRootOutSource.modulemap */,
-				610A0C6EFA7A95DCAA4B4C56479EEC9F /* MyRootOutSource.xcconfig */,
-				56CFE801AE47124FE4D777ABE1CCF09D /* MyRootOutSource-dummy.m */,
-				1219CF2024CC0B13D0D01D159BE6B349 /* MyRootOutSource-prefix.pch */,
-				E4528816B7E0CE9B484CBBA67BF62C98 /* MyRootOutSource-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MyRootOutSource";
 			sourceTree = "<group>";
 		};
 		4374443ADDC6A131B824486D41D9435E /* TDFDataDrivenKit */ = {
@@ -574,14 +554,23 @@
 				C51253EB4C51572F24D97DE5E52C05E0 /* TDFTableViewViewProtocol.h */,
 				E44617ED749508008F9E3B3253DB3150 /* Support Files */,
 			);
+			name = TDFDataDrivenKit;
 			path = TDFDataDrivenKit;
+			sourceTree = "<group>";
+		};
+		5B79C96222100A4E7E3A62D8734D2418 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1E2E0F699813ECA179BE06AAD379B89 /* MyRootOutSource */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0AE7E2FF94ADD3C13846A865B3E96D39 /* Development Pods */,
+				5B79C96222100A4E7E3A62D8734D2418 /* Development Pods */,
 				9E60478E67BB4D49646C63B846D22466 /* Frameworks */,
 				F1362B53F759833CD210B8B931A70D25 /* Pods */,
 				14C8842BE1BE1A8C59DACB7BA45AF342 /* Products */,
@@ -614,6 +603,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0A517E3851EA5AB71BA05C372105309 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3E12F4F3A173B464D86DC22BB14FFF0 /* Info.plist */,
+				C96EA5CAC99EEB18A8D6A1B44200CB4A /* MyRootOutSource.modulemap */,
+				5479F64B43004E2C78ED095E01AEFBA2 /* MyRootOutSource.xcconfig */,
+				FBE4EE156309DC69AC65C2D341B9C032 /* MyRootOutSource-dummy.m */,
+				DBFD8B301B88D2F4E06F0080AC063A12 /* MyRootOutSource-prefix.pch */,
+				9280D2363B9B5F9F861D092C71BF7938 /* MyRootOutSource-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyRootOutSource";
+			sourceTree = "<group>";
+		};
 		AD6B3A56E796FADE20A8C7E914DBF7F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,15 +645,15 @@
 			path = "../Target Support Files/ADBaseUIKit";
 			sourceTree = "<group>";
 		};
-		B20627EEC6D70B25C13574481DD11B3A /* MyRootOutSource */ = {
+		D1E2E0F699813ECA179BE06AAD379B89 /* MyRootOutSource */ = {
 			isa = PBXGroup;
 			children = (
-				164BC4C768F5BFB003EF13C4730E6BEC /* HSTestView.h */,
-				A574307F488449661194572D9400D0B7 /* HSTestView.m */,
-				E7D20D3E536C55A92DEF083CB5265043 /* ReplaceMe.m */,
-				D751C0A2E6679CDB1A9E0D4B70FE3F2D /* testx2.h */,
-				7CFEF2220F709F62CABC114B82739FEC /* testx2.m */,
-				41AB4C7D7592F8AF5885BBF173CF4478 /* Support Files */,
+				23E39F20794BDB6FAEFCBA32A7952983 /* HSTestView.h */,
+				C9A7FAD3BF9D4100E2C910C3F6011DC9 /* HSTestView.m */,
+				3FE7EA25DE4CC0C5C68A23101E139B61 /* ReplaceMe.m */,
+				AA9D344C3DAB639AAB18BACDA83C0DBE /* testx2.h */,
+				ECEC5BCED77E433E37C28A94B1ABCDA1 /* testx2.m */,
+				A0A517E3851EA5AB71BA05C372105309 /* Support Files */,
 			);
 			name = MyRootOutSource;
 			path = ../..;
@@ -701,6 +704,7 @@
 				6C2F1A85331ACD579607FC3D37222B20 /* TimePickerClient.h */,
 				ED70254B9DA100C18623B3434258ED66 /* Support Files */,
 			);
+			name = TDFCoreProtocol;
 			path = TDFCoreProtocol;
 			sourceTree = "<group>";
 		};
@@ -714,6 +718,7 @@
 				404A5A4B2FF7DDEA36DDF6AF9E08F0F6 /* TDFProjectNetworkingMacro.h */,
 				8944A0F450CA0B2063E8FE61411D244A /* Support Files */,
 			);
+			name = TDFBaseInfoKit;
 			path = TDFBaseInfoKit;
 			sourceTree = "<group>";
 		};
@@ -760,6 +765,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B8838BCE68E6A7C8D3AFD13520AED6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD244E2648DCB75B613E3D83392934C /* HSTestView.h in Headers */,
+				39535D31BF47E8BE9A625AFDA7740E00 /* MyRootOutSource-umbrella.h in Headers */,
+				7595B7FE2F77F17D7DFB858AF05A3A36 /* testx2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E5AD38D4E42FDD79D679863F5CD374D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -788,16 +803,6 @@
 				AE68D9B2505468A0C63080B6C9CA8B80 /* View+MASAdditions.h in Headers */,
 				3D1DA4628DCEF218F2CDD9991146A2B5 /* View+MASShorthandAdditions.h in Headers */,
 				510A5F7EA8E53728764B543537FF94BC /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77DD27D7A1C8A497C538B579F2A9B38C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61B126067D8B16D9D9192479D2C33A34 /* HSTestView.h in Headers */,
-				D0F3DB6CB425646B26DAB7F41ED71299 /* MyRootOutSource-umbrella.h in Headers */,
-				DB8E0C66D720ADAABFD68871EB9CB8BA /* testx2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,6 +893,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		42CB5CE314B7AB474A0123AADB1764BB /* MyRootOutSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF9B8558E95848B4A6B56FC9890DDA2 /* Build configuration list for PBXNativeTarget "MyRootOutSource" */;
+			buildPhases = (
+				73A775AB628B37E80CD952038D8E1B57 /* Sources */,
+				CBAD551CC70D19534D0508EB27EF7F9A /* Frameworks */,
+				0B8838BCE68E6A7C8D3AFD13520AED6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRootOutSource;
+			productName = MyRootOutSource;
+			productReference = C9C24292BFE329BE4A6B0E7553748764 /* MyRootOutSource.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		44D4DCD79DBC6FE8D04EE05125356243 /* Masonry */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E04BDA6D2664CE950D510B97DFC4C56 /* Build configuration list for PBXNativeTarget "Masonry" */;
@@ -965,23 +987,6 @@
 			productReference = 90DDDD2CF67D76FAC42578639EF061E8 /* TDFDataDrivenKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9CEA93C826416F9581B8BA09F5A33AA /* MyRootOutSource */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6693E88E43F78E98619EBD36D247428 /* Build configuration list for PBXNativeTarget "MyRootOutSource" */;
-			buildPhases = (
-				853A2845FB3D3BD1C4C2F512E84C9D4D /* Sources */,
-				D68963BA3CA3BBCCC897BD96DD1F0394 /* Frameworks */,
-				77DD27D7A1C8A497C538B579F2A9B38C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyRootOutSource;
-			productName = MyRootOutSource;
-			productReference = C9C24292BFE329BE4A6B0E7553748764 /* MyRootOutSource.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E6EE7E2E668014E8FB8D70DC75208829 /* ADBaseUIKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 817E38FA8DFF8699433371A3600A5DD7 /* Build configuration list for PBXNativeTarget "ADBaseUIKit" */;
@@ -1040,7 +1045,7 @@
 			targets = (
 				E6EE7E2E668014E8FB8D70DC75208829 /* ADBaseUIKit */,
 				44D4DCD79DBC6FE8D04EE05125356243 /* Masonry */,
-				D9CEA93C826416F9581B8BA09F5A33AA /* MyRootOutSource */,
+				42CB5CE314B7AB474A0123AADB1764BB /* MyRootOutSource */,
 				80BBDEE8CFCC12172140B42A62B99949 /* Pods-MyRootOutSource_Example */,
 				FFAEF2863089D397F7FE1E65467E21F4 /* TDFBaseInfoKit */,
 				4BD8B2E94D1DEFE59C944599A4E33192 /* TDFCoreProtocol */,
@@ -1079,14 +1084,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		853A2845FB3D3BD1C4C2F512E84C9D4D /* Sources */ = {
+		73A775AB628B37E80CD952038D8E1B57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC0749390870E21517396364BDD8248 /* HSTestView.m in Sources */,
-				1A51F34DFC65FE03119BC8CF0CB6F24B /* MyRootOutSource-dummy.m in Sources */,
-				C799CCF1F3391AE5FEDADCBC1BFCBA71 /* ReplaceMe.m in Sources */,
-				32DFB677E34061FB7A721A5F5DFF6392 /* testx2.m in Sources */,
+				D456DDA22F6EF8DF4340175D6DF86D9D /* HSTestView.m in Sources */,
+				7165676D66A14C15B74900799B830E4D /* MyRootOutSource-dummy.m in Sources */,
+				85693D59C600F3C4882BD953047BD6E5 /* ReplaceMe.m in Sources */,
+				2E05A86DB86E33A4ADED8A2427DB9CDE /* testx2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,7 +1177,7 @@
 		764EDFA5D06233E1697945108138D4C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyRootOutSource;
-			target = D9CEA93C826416F9581B8BA09F5A33AA /* MyRootOutSource */;
+			target = 42CB5CE314B7AB474A0123AADB1764BB /* MyRootOutSource */;
 			targetProxy = 14A06720BC68755C5FAB40CFBC9A0642 /* PBXContainerItemProxy */;
 		};
 		8A8827833EA2B67642D67C26BA66F8D6 /* PBXTargetDependency */ = {
@@ -1234,38 +1239,9 @@
 			};
 			name = Debug;
 		};
-		319F7472BDF267226DD88A3F56B2478B /* Debug */ = {
+		5358510DE438FCAB13D8A2093B10D3DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 610A0C6EFA7A95DCAA4B4C56479EEC9F /* MyRootOutSource.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MyRootOutSource/MyRootOutSource-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyRootOutSource/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MyRootOutSource/MyRootOutSource.modulemap";
-				PRODUCT_NAME = MyRootOutSource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3CB886ABA3069D9ADFCD7312E385B37A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 610A0C6EFA7A95DCAA4B4C56479EEC9F /* MyRootOutSource.xcconfig */;
+			baseConfigurationReference = 5479F64B43004E2C78ED095E01AEFBA2 /* MyRootOutSource.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1409,6 +1385,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		843381F84F2AFBF6C65885FD23695CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5479F64B43004E2C78ED095E01AEFBA2 /* MyRootOutSource.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyRootOutSource/MyRootOutSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyRootOutSource/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyRootOutSource/MyRootOutSource.modulemap";
+				PRODUCT_NAME = MyRootOutSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		89843B4FF1A2F621C7C1E3391F7F932E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1808,11 +1813,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6693E88E43F78E98619EBD36D247428 /* Build configuration list for PBXNativeTarget "MyRootOutSource" */ = {
+		EBF9B8558E95848B4A6B56FC9890DDA2 /* Build configuration list for PBXNativeTarget "MyRootOutSource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319F7472BDF267226DD88A3F56B2478B /* Debug */,
-				3CB886ABA3069D9ADFCD7312E385B37A /* Release */,
+				843381F84F2AFBF6C65885FD23695CBB /* Debug */,
+				5358510DE438FCAB13D8A2093B10D3DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
