@@ -11,6 +11,8 @@
 #import "DHTTableViewSection.h"
 #import "Masonry.h"
 #import "HSTestItem.h"
+#import "ADHostTest.h"
+
 @interface HSViewController ()
 
 @property(nonatomic, strong) UITableView *theTableView;
@@ -24,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    ADHostTest *test = [ADHostTest new];
+    [test test1];
     
     self.theTableView = [[UITableView alloc] init];
     [self.view addSubview:self.theTableView];

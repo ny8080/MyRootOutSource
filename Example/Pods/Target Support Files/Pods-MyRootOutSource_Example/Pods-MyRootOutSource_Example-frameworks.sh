@@ -102,6 +102,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ADBaseUIKit/ADBaseUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MyRootOutSource/MyRootOutSource.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TDFBaseInfoKit/TDFBaseInfoKit.framework"
@@ -109,6 +110,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/TDFDataDrivenKit/TDFDataDrivenKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ADBaseUIKit/ADBaseUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MyRootOutSource/MyRootOutSource.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TDFBaseInfoKit/TDFBaseInfoKit.framework"

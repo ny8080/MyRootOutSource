@@ -5,9 +5,10 @@ source 'https://github.com/ny8080/cocoapods-spec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MyRootOutSource_Example' do
+#  pod 'MyRootOutSource', :path => '../'
   pod 'MyRootOutSource', :path => '../MyRootOutSource.podspec'
   pod 'TDFDataDrivenKit'
   pod 'Masonry'
-  pod 'TDFCoreProtocol'
+  pod 'ADBaseUIKit'
 
 end
