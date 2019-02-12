@@ -1,23 +1,30 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
   - MyRootOutSource (0.0.1)
+  - TDFBaseInfoKit (0.0.1)
+  - TDFCoreProtocol (0.0.1)
+  - TDFDataDrivenKit (0.0.1):
+    - Masonry
+    - TDFBaseInfoKit
+    - TDFCoreProtocol
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
+  - Masonry
   - MyRootOutSource (from `../MyRootOutSource.podspec`)
+  - TDFCoreProtocol
+  - TDFDataDrivenKit
 
 EXTERNAL SOURCES:
   MyRootOutSource:
     :path: ../MyRootOutSource.podspec
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MyRootOutSource: 87de2d09b770e47125c3862e555721e0571cdd9c
+  TDFBaseInfoKit: a82dc29fd97963f6644178b267ab7dde0d5c177e
+  TDFCoreProtocol: cdd1d18ed1adf0c135de3e938cee89ad2089438b
+  TDFDataDrivenKit: 8cb9cc26fff14d211f1042f13dc9dedbbb1470c7
 
-PODFILE CHECKSUM: f4357b5ce47bcb550c7b67b357d93d0023cb2039
+PODFILE CHECKSUM: 44163cc4569c317fb7b4ee4a5fa3ac105aed6f86
 
 COCOAPODS: 1.3.1

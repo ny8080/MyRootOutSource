@@ -1,0 +1,6 @@
+framework module TDFCoreProtocol {
+  umbrella header "TDFCoreProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

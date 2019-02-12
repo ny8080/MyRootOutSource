@@ -1,0 +1,6 @@
+framework module TDFDataDrivenKit {
+  umbrella header "TDFDataDrivenKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

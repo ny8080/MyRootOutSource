@@ -1,13 +1,13 @@
 use_frameworks!
 
 platform :ios, '8.0'
+source 'https://github.com/ny8080/cocoapods-spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MyRootOutSource_Example' do
   pod 'MyRootOutSource', :path => '../MyRootOutSource.podspec'
+  pod 'TDFDataDrivenKit'
+  pod 'Masonry'
+  pod 'TDFCoreProtocol'
 
-  target 'MyRootOutSource_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

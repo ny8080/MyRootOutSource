@@ -1,0 +1,6 @@
+framework module TDFBaseInfoKit {
+  umbrella header "TDFBaseInfoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
